@@ -2,7 +2,6 @@ const ListItem = props => {
   const {eachUser, deleteValue} = props
   const {id, title, timeAccessed, logoUrl, domainUrl} = eachUser
   const deleteUser = () => {
-    console.log(id)
     deleteValue(id)
   }
   return (

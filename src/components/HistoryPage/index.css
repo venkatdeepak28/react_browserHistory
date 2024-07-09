@@ -43,9 +43,9 @@
   justify-content: center;
   align-items: center;
 }
-.main-heading{
-    text-align: center;
-    font-family: "Roboto";
+.main-heading {
+  text-align: center;
+  font-family: 'Roboto';
 }
 .content-container {
   margin-top: 24px;
