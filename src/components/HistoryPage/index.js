@@ -96,8 +96,7 @@ class HistoryPage extends Component {
     const {listValue} = this.state
     const searchResults = listValue.filter(eachUser => {
       const lowerCase = eachUser.title.toLowerCase()
-      console.log(lowerCase)
-      return lowerCase.includes(searchValue)
+      return lowerCase.includes(searchValue.toLowerCase())
     })
     if (searchResults.length === 0) {
       authButton = <p className="main-heading">There is no history to show</p>
